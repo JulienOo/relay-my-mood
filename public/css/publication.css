@@ -1,0 +1,13 @@
+caption{
+    border: solid black 1px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+table, tr, td {
+    border: solid black 1px;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
