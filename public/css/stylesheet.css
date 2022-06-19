@@ -1,0 +1,9 @@
+body{
+    background-color: gray;
+}
+
+.banniereCentree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
