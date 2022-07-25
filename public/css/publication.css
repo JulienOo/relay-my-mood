@@ -1,8 +1,11 @@
 
-table, tr, td, caption {
+table, tr, td{
     border: solid black 1px;
     border-collapse: collapse;
     text-align: center;
     padding: 5px;
-    background-color: gainsboro;
+    background-color: white;
+}
+.policeTableau{
+font-size: 56px;
 }
