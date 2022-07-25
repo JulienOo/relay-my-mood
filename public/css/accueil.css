@@ -1,0 +1,42 @@
+body, header{
+	margin: 0;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+header{
+	width: 100vw;
+	height: 16vh;
+
+	background-color: green;
+}
+
+.principalNav{
+	display: flex;
+}
+
+.principalContent{
+	flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+}
+
+nav{
+	display: flex;
+	width: 5vw;
+	height: 84vh;
+
+	background-color: yellow;
+
+	justify-content: space-between;
+
+	flex-direction: column;
+}
+
+.publication{
+	padding-bottom: 25px;
+}
