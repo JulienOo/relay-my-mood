@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'vegurregular';
+    
+    url('../fonts/Vegur-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .tableau-mesPublications{
     width:300px; height:100px;
 }
@@ -8,7 +16,28 @@ table, tr, td{
     text-align: center;
     padding: 5px;
     background-color: white;
+    font-family: 'vegurrelar', "Arial Black";
+    font-size: 56px;
 }
 .policeTableau{
+font-family: 'vegurrelar', "Arial Black";
 font-size: 56px;
+}
+.rebordArrondiHaut
+{
+    border-radius: 40px 40px 0px 0px;
+    font-family: 'vegurrelar', "Arial Black";
+    font-size: 56px;
+}
+.rebordArrondiBas
+{
+    font-family: 'vegurrelar', "Arial Black";
+    border-radius: 0px 0px 40px 40px;
+    font-size: 56px;
+}
+.cellulesHautes
+{
+    font-family: 'vegurrelar', "Arial Black";
+    background-color: #F2F2F2;
+    font-size: 56px;
 }
