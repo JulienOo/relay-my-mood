@@ -1,0 +1,24 @@
+li
+{
+    margin-top: 2vh;
+    font-family: Arial, sans-serif;
+    font-size: 18pt;
+}
+.pageActuelleMenu
+{
+    font-weight: bold;
+}
+.ecartHautMenu
+{
+    margin-top: 5vh;
+}
+.ecartLogo
+{
+    margin-top: 50vh;
+    margin-right: 1vw;
+}
+.policeTableau
+{
+    font-family: Arial, sans-serif;
+    font-size: 21pt;
+}
