@@ -1,3 +1,9 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
 .banniere
 {
     height: 15vh;
@@ -17,27 +23,55 @@
     background-image: url("../images/imageMenuLateral.jpg")
 }
 /*<image src="public/images/imageMenuLateral.jpg">*/
+a
+{
+    text-decoration: none;
+    color : inherit;
+}
 .rangeeLogo
 {
     display: flex;
 }
 .logo
 {
-    height: 4vh;
-    width : 2vw;
+    height: 2vh;
+    width : 1vw;
 }
 ul
 {
     list-style: none;
 }
 
-
-table, tr
+/*table, tr
 {
     border: solid black 1px;
     border-collapse: collapse;
     text-align: center;
 
+}*/
+table
+{
+    border: solid black 1px;
+    text-align: center;
+    border-radius: 40px;
+    border-spacing: 0px;
+    margin: 0 auto;
+}
+
+table > tr:first-child > td:first-child {
+    border-top-left-radius: 40px;
+}
+
+table > tr:first-child > td:last-child {
+    border-top-right-radius: 40px;
+}
+
+table > tr:last-child > td:first-child {
+    border-bottom-left-radius: 40px;
+}
+
+table > tr:last-child > td:last-child {
+    border-bottom-right-radius: 40px;
 }
 .tableau
 {

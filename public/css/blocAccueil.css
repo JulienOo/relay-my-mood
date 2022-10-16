@@ -1,0 +1,72 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banniere
+{
+    height: 15vh;
+    width : 100vw;
+    margin-bottom: 2vh;
+}
+.fenetreGeneral
+{
+    display: flex;
+}
+.menu
+{
+    height: 80vh;
+    width : 17vw;
+    background-color: violet;
+    margin-right: 5vw;
+    background-image: url("../images/imageMenuLateral.jpg")
+}
+/*<image src="public/images/imageMenuLateral.jpg">*/
+a
+{
+    text-decoration: none;
+    color : inherit;
+}
+.rangeeLogo
+{
+    display: flex;
+}
+.logo
+{
+    height: 2vh;
+    width : 1vw;
+}
+ul
+{
+    list-style: none;
+}
+table
+{
+    border: solid black 1px;
+    text-align: center;
+    width: 72vw;
+
+}
+tr
+{
+    border: solid black 1px;
+}
+
+.enTetePublication
+{
+    margin-top: 8vh;
+    height: 7vh;
+    border-radius: 14px 14px 0px 0px;
+    background-color: #F2F2F2;
+}
+
+.contenuPublication
+{
+    height: 21vh;
+}
+.piedPublication
+{
+    border-radius: 0px 0px 14px 14px;
+    height: 7vh;
+}

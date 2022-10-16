@@ -22,13 +22,13 @@ li
     margin-top: 46vh;
     margin-right: 1vw;
 }
-.policeTableau
-{
-    font-family: Arial, sans-serif;
-    font-size: 21pt;
-}
 
 .trierPar
 {
     font-size: 12pt;
+}
+.policePublication
+{
+    font-family: Arial, sans-serif;
+    font-size: 21pt;
 }
