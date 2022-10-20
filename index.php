@@ -8,7 +8,7 @@ require_once "controller/controller.php";
 
 // print_r($url);
 
-$_SESSION["log"] = true;
+// $_SESSION["log"] = true;
 
 
 
