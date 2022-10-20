@@ -1,0 +1,49 @@
+
+.fenetreGeneral
+{
+    display: flex;
+}
+
+
+/*table, tr
+{
+    border: solid black 1px;
+    border-collapse: collapse;
+    text-align: center;
+
+}*/
+table
+{
+    border: solid black 1px;
+    text-align: center;
+    border-spacing: 0px;
+    margin: 0 auto;
+}
+
+
+.tableau
+{
+    margin-top: 8vh;
+}
+.premierLigneTableau
+{
+    background-color: #F2F2F2;
+    height: 7vh;
+    border-radius: 14px 14px 0px 0px;
+}
+.ligneTableau
+{
+    height: 7vh;
+}
+.celluleTableau
+{
+    width: 18vw;
+}
+.derniereLigneTableau
+{
+    height: 7vh;
+    border-radius: 0px 0px 14px 14px;
+}
+
+/* Coin arrondi tableau à mettre en place
+*/

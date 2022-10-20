@@ -1,0 +1,46 @@
+
+.fenetreGeneral
+{
+    display: flex;
+}
+table
+{
+    border: solid black 1px;
+    text-align: center;
+    width: 72vw;
+
+}
+tr
+{
+    border: solid black 1px;
+}
+
+.enTetePublication
+{
+    margin-top: 8vh;
+    height: 7vh;
+    border-radius: 14px 14px 0px 0px;
+    background-color: #F2F2F2;
+}
+
+.contenuPublication
+{
+    height: 21vh;
+}
+.piedPublication
+{
+    border-radius: 0px 0px 14px 14px;
+    height: 7vh;
+}
+.enTetePublier
+{
+    margin-top: 8vh;
+    height: 7vh;
+    border-radius: 14px 14px 0px 0px;
+    background-color: #F2F2F2;
+}
+.corpsPublier
+{
+    height: 40vh;
+    border-radius: 0px 0px 14px 14px;
+}
