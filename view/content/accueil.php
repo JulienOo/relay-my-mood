@@ -1,40 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Accueil
-            
-        </title>
-        <link rel="stylesheet" href="public/css/blocAccueil.css">
-        <link rel="stylesheet" href="public/css/caractereAccueil.css">
-    </head>
-    <header>
-        <img src="public/images/banniereRelayMyMood.jpg" class="banniere">
-    </header>
-    <body>
-    <section class="fenetreGeneral">
-    <section class="menu">
+          
+<?php ob_start(); ?> 
 
-    <nav>
-        <ul>
-            <li class="ecartHautMenu pageActuelleMenu"><a href="accueil.html">Accueil</a></li>
-            <li class="lien"><a href="mon-profil.html">Mon profil</a></li>
-            <li class="lien"><a href="mes-publications.html">Mes publications</a></li>
-            <li class="lien"><a href="mes-enregistrements.html">Mes enregistrements</a></li>
-            <li class="lien"><a href="publier.html">Publier</a></li>
-        </ul>
-        <ul class="rangeeLogo">
-            <li class="ecartLogo trierPar">Trier par :</li>
-            <li class="ecartLogo"><img src="public/images/heureux.png" title="logo heureux" class="logo"/></li>
-            <li class="ecartLogo"><img src="public/images/calme.png" title="logo calme" class="logo"/></li>
-            <li class="ecartLogo"><img src="public/images/triste.png" title="logo triste" class="logo"/></li>
-            <li class="ecartLogo"><img src="public/images/fatigué.png" title="logo calme" class="logo"/></li>
-            <li class="ecartLogo"><img src="public/images/logoHorloge.png" title="logo horloge" class="logo"/></li>
-        </ul>
-    </nav>
-    </section>
-
-        <section>
         <article>
             <table class="enTetePublication ">
                 <tr class="policePublication">
@@ -75,8 +41,5 @@
                 </tr>
             </table>
         </article>
-</section>
-</section>
 
-    </body>
-</html>
+<?php $content = ob_get_clean(); ?>
